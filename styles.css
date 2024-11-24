@@ -1,0 +1,81 @@
+.body{
+    font-family: Montserrat;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-around; 
+    align-items: flex-start;                
+    padding: 20px;
+    
+}
+
+.item{
+    background-color:white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 25px;
+    flex: 1 1 150px;
+  
+}
+
+.item:hover{
+    background-color: #96BB7C ;
+    color:white;
+
+    p{
+        color: white;
+    }
+
+    .red-line{
+        background-color: white;
+    }
+    
+}
+
+.badge{
+    color:#96BB7C ;
+    position:relative;
+    top:20px;
+    left:50x;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+h1{
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.p-item{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.paragraph{
+    color:#737373 ;
+    text-align: left;
+    padding-bottom: 50px;
+    
+}
+
+.main-paragraph{
+    color:#737373 ;
+    text-align: left;
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+
+.red-line{
+    width: 70px;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 30px;
+}
